@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1 Give Us Your Email!
+    h3 Spam is imminent.
+    
+    form(method="POST" action="/formsubmit")
+        input(name="email" type="email")
+        input(type="submit")
